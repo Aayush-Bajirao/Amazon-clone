@@ -1,17 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header';
+import Startpage from './Startpage';
+import Checkout from './Checkout';
+import Loginpage from './Loginpage';
 
 function App() {
   return (
     <Router>
     <div className="App">      
       <Routes>
-        <Route path="/" element={
-          <Header />
-        } />
-        <Route path="/checkout" element={<h1>Checkout</h1>} />
-        <Route path="/login" element={<h1>Login page</h1>} />
+        <Route path="/" element={<Startpage />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/login" element={<Loginpage />} />
 
 
       </Routes>

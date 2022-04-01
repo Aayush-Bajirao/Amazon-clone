@@ -7,7 +7,7 @@ import { FaSearch, FaShoppingCart } from "react-icons/fa";
 function Header() {
   return (
     <nav className="header">
-      <Link to="/login">
+      <Link to="/">
         <img
           className="header_logo"
           src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
