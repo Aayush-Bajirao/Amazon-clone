@@ -1,0 +1,34 @@
+.product p {
+    margin: 0;
+}
+
+.product_rating {
+    display: flex;
+}
+
+.product {
+    margin: 20px;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    max-height: 400px;
+    max-width: 90vh;
+}
+
+.product > button {
+    margin: auto;
+    padding-inline: 20px;
+    background-color: #f0c14b;
+    border: 1px solid ;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.product > img {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

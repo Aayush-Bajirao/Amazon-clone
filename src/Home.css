@@ -9,3 +9,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.padding{
+    height: 35vh;
+}
+
+.home_row{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    z-index: 1;
+    margin: auto;
+}
