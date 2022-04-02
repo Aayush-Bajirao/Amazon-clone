@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Home.css";
 import Product from "./Product";
 
@@ -58,10 +57,10 @@ function Home() {
       <div className="home_row">
         <Product
           id="12000"
-          title="Oppo Enco Buds Bluetooth Truly Wireless in Ear Earbuds(TWS) with Mic, 24H Battery Life, Supports Dolby Atomsï¼ŒNoise Cancellation During Callsï¼ŒIP54 Dust & Water Resistant,(Blue, True Wireless)"
+          title="Acer Nitro VG280K 28 Inch UHD 4K (3840 X 2160) IPS Gaming Monitor I AMD Radeon Freesync Technology I I DCI-P3 90%, HDR10 Technology I 2 x HDMI and 1 x DP Ports I Stereo Speakers"
           price={449.00}
           rating={5}
-          image='https://m.media-amazon.com/images/I/51IUVS7loYL._SX522_.jpg'
+          image='https://assets2.rockpapershotgun.com/grow-home-ultrawide-monitor.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/grow-home-ultrawide-monitor.jpg'
         />   
         
                

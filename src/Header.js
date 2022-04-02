@@ -2,9 +2,14 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import { useStateValue } from "./StateProvider";
+
 
 
 function Header() {
+
+  const [ {basket} ] = useStateValue(); 
+
   return (
     <nav className="header">
       <Link to="/">
@@ -47,7 +52,7 @@ function Header() {
         <Link to="/checkout" className="header_link">
             <div className="header_optionBasket">
               <FaShoppingCart size="1.5rem" />
-              <span>0</span>
+              <span>{basket.length}</span>
             </div>
         </Link>
         
